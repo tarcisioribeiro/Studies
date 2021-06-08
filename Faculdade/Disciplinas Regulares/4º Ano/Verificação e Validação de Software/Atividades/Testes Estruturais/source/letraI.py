@@ -18,8 +18,7 @@ if (totCarros < 0) or (totVendas < 0) or (sfixo < 0) or (cmVenda < 0):
         sfixo = float(input('Informe o salário fixo: '))
         cmVenda = float(input('Informe a comissão por veículo vendido: '))
 
-        sfinal = sfixo + \
-            (cmVenda * totCarros) + (totVendas * 0.05)
+        sfinal = sfixo + (cmVenda * totCarros) + (totVendas * 0.05)
 
 print()
 print('O salário final do vendedor é de R$ {}.'.format(int(sfinal)))
