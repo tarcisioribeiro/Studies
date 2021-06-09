@@ -1,0 +1,24 @@
+void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("NPC"))
+        {
+            //other.gameObject.SetActive(false);
+            pontuacao++;
+            txtPontuacao.text = "" + pontuacao;
+            somMoeda.Play();
+            if (pontuacao >= 10) {
+                animator.SetBool("dancando", true);
+                animator.SetBool("pulando", false);
+                animator.SetInteger("lado", 0);
+                animator.SetInteger("frente", 0);
+                moveDirection = Vector3.zero; //para de andar
+
+                dancando = true;
+                Invoke ( "FinalizaDanca", 10.0f ); //tempo sem segundos
+            }
+        }
+    }
+    void FinalizaDanca() {
+        animator.SetBool("dancando", false);
+        dancando = false;
+    }
