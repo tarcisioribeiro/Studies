@@ -1,6 +1,0 @@
-npm init -y
-npm install --save-dev typescript
-tsc
-npm install --save-dev express body-parser
-npm install --save-dev @types/node @types/express @types/body-parser
-npm install --save-dev nodemon concurrently
