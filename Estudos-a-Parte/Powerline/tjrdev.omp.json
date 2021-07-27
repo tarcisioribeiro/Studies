@@ -46,7 +46,7 @@
                     "powerline_symbol": "",
                     "properties": {
                         "prefix": "<#42C3CF> \uF2BE </>",
-                        "display_host": false,
+                        "display_host": true,
                         "user_info_separator": "<#C0C0C0> \uf6c3 </>"
                     }
                 },
@@ -59,7 +59,7 @@
                     "properties": {
                         "prefix": " \uF07C ",
                         "home_icon": "~",
-                        "style": "folder"
+                        "style": "agnoster_short"
                     }
                 },
                 {
@@ -284,4 +284,3 @@
     "console_title": true,
     "console_title_style": "template",
     "console_title_template": "{{ .Shell }} in {{ .Folder }}"
-}
