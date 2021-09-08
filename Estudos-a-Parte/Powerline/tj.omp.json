@@ -38,7 +38,7 @@
                     "trailing_diamond": "",
                     "properties": {
                         "postfix": " ",
-                        "display_host": true
+                        "display_host": false
                     }
                 },
                 {
@@ -232,31 +232,6 @@
         {
             "type": "rprompt",
             "segments": [
-                {
-                    "type": "shell",
-                    "style": "plain",
-                    "foreground": "#ffffff",
-                    "background": "#0077c2",
-                    "properties": {
-                        "prefix": "<#0077c2,transparent>\uE0B6</>  ",
-                        "postfix": " <transparent,#0077c2>\uE0B2</>"
-                    }
-                },
-                {
-                    "type": "spotify",
-                    "style": "powerline",
-                    "powerline_symbol": "\uE0B2",
-                    "invert_powerline": true,
-                    "foreground": "#1BD760",
-                    "background": "#202020",
-                    "properties": {
-                        "prefix": "\uF9C6 ",
-                        "playing_icon": "\uE602 ",
-                        "paused_icon": "\uF8E3 ",
-                        "stopped_icon": "\uF04D ",
-                        "track_separator": " - "
-                    }
-                },
                 {
                     "type": "battery",
                     "style": "powerline",
