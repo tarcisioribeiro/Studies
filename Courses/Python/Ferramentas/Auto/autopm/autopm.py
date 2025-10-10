@@ -1,0 +1,22 @@
+from pyautogui import sleep, press, moveTo, click, write
+
+
+sleep(1)
+press('win')
+sleep(1)
+write('Google Chrome')
+sleep(1)
+press('enter')
+sleep(5)
+moveTo(x=1770, y=62)
+sleep(1)
+click()
+sleep(1)
+moveTo(x=1451, y=418)
+sleep(1)
+click()
+sleep(1)
+write('orrARDrdr27!')
+sleep(1)
+press('enter')
+sleep(5)
