@@ -1,11 +1,13 @@
 # Actual Course
 
-Backend - Dominando o NodeJS
+* Title: *Backend - Dominando o NodeJS*
+* Platform: *Dev Samurai*
+* Actual Class: *'0402 - Listagem dos registros'*
+* Course Folder: **/mnt/sda/Development/Courses/Backend/Classes/Backend_Dominando_o_NodeJS/**
 
-Folder: /mnt/sda/Development/Courses/Backend/Classes/Backend_Dominando_o_NodeJS/
+## Classes
 
-Classes:
-
-Total: 61
-Watched: 1
-Remaining: 60
+* Total: 61
+* Watched: 12
+* Watching: 4
+* Remaining: 45
