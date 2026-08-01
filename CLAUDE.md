@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This is a personal learning repository ("Estudos" = Studies) containing course materials, exercises, and projects across multiple programming languages and technologies. The repository is organized into two main sections:
 
-- **Certificates/**: PDF certificates from completed courses (Angular, Flutter, Git/GitHub, Linux, MySQL, Python)
+- **Certificates/**: PDF certificates from completed courses (Angular, Flutter, Git/GitHub, Linux, MySQL, Python). Professional (non-course) certificates such as Django Master and English A1 are versioned separately, outside this repository — see `README.md` for pointers.
 - **Courses/**: Active learning materials and projects organized by technology
 
 ## Repository Structure
@@ -44,14 +44,14 @@ The Python section is divided into three categories:
 
 ### PHP (`Courses/PHP/`)
 
-- **cursophp/**: Basic PHP exercises (ex000, ex001, ex002)
+- **cursophp/**: Basic PHP exercises (aula001, ex000, ex001, ex002)
 - Each exercise in separate directory with `index.php`
+- `copy_archives.sh`: copies `cursophp/` into a local XAMPP/LAMPP htdocs folder (`/opt/lampp/htdocs`) as an alternative to PHP's built-in server
 
-### Unity (`Courses/Unity/`)
+### JavaScript / TypeScript (`Courses/JavaScript/`)
 
-- **Jogo_2D_Deserto/**: 2D side-scrolling desert game project
-  - Unity project with Assets including DesertTileset, Player animations, Enemy animations, Coins
-  - Contains prefabs, animations (.anim), controllers, and sprite assets
+- **NodeJS/**: Basic Express server (`index.js`), with `nodemon` wired up via `package.json` (`yarn dev`)
+- **TypeScript/**: Standalone TypeScript syntax examples (`index.ts`), no build config present
 
 ## Running Projects
 
@@ -91,6 +91,19 @@ cd Courses/PHP/cursophp/ex001
 php -S localhost:8000
 ```
 
+### JavaScript / TypeScript
+
+```bash
+# NodeJS (Express)
+cd Courses/JavaScript/NodeJS
+yarn install
+yarn dev
+
+# TypeScript
+cd Courses/JavaScript/TypeScript
+npx ts-node index.ts
+```
+
 ## Architecture Notes
 
 ### Python Game Pattern
@@ -103,12 +116,6 @@ php -S localhost:8000
 - Later exercises (ex107+) demonstrate custom package creation
 - Pattern: `utilidadescev/` package with submodules (`moeda/`, `dado/`)
 - Each submodule has `__init__.py` for imports
-
-### Unity Project
-- Standard Unity 2D project structure
-- Animation system uses Unity Animator controllers
-- Prefabs for reusable game objects (Player, Enemy, Coins)
-- Tileset-based level design with DesertTileset
 
 ## File Organization
 
